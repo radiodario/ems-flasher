@@ -47,17 +47,20 @@ For a full list of options, run the command with the --help flag.
 
 # Examples
 
-* write the ROM to the cart
+* Write the ROM to the cart
+```
+./ems-flasher --write totally_legit_rom.gb
+```
 
-    ./ems-flasher --write totally_legit_rom.gb
-
-* saves the contents of the cart into the file; print some extra info
-
-    ./ems-flasher --verbose --read not_warez.gb
+* Save the contents of the cart into the file; print some extra info
+```
+./ems-flasher --verbose --read not_warez.gb
+```
 
 * print out the title
-
-    ./ems-flasher --title
+```
+./ems-flasher --title
+```
 
 # Bugs
 
