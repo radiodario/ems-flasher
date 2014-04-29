@@ -34,7 +34,7 @@ megabytes) into the ROM file specified.
 Title mode does not require a file argument, and will print the ROM
 title to stdout.
 
-BEWARE: if you give the EMS flasher a huge file for writing, it will
+**BEWARE**: if you give the EMS flasher a huge file for writing, it will
 continue writing past the end of the cart and do unknown amounts of
 damage. Please don't do this!
 
@@ -48,12 +48,15 @@ For a full list of options, run the command with the --help flag.
 # Examples
 
 * write the ROM to the cart
+
     ./ems-flasher --write totally_legit_rom.gb
 
 * saves the contents of the cart into the file; print some extra info
+
     ./ems-flasher --verbose --read not_warez.gb
 
 * print out the title
+
     ./ems-flasher --title
 
 # Bugs
